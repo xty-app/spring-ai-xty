@@ -1,0 +1,14 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring-ai-xty
+  ai:
+    openai:
+      # apikey，到 https://api.xty.app 平台注册获取
+      api-key: sk-xxx
+      base-url: https://hk.xty.app
+      chat:
+        options:
+          model: gpt-4
+
